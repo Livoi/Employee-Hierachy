@@ -13,9 +13,6 @@ the first employee.
 from a manager is defined as the sum of the salaries of all the employees reporting (directly or indirectly)
 to a specified manager, plus the salary of the manager
 
-# Solution
->The Algorithm used is **Directed Graphs**. The graph is represented using the **Adjacency List representation**. The graph stores each employee's id with all the ids of employees under him/her. 
-To get the total Budget a DFS search is Performed getting employees ids. Then add their salary and return total salary.
 
 # Test Plan
 | Scenario | input | Expected | Result |
@@ -30,12 +27,7 @@ To get the total Budget a DFS search is Performed getting employees ids. Then ad
 | employee contains negative Salary | test4.csv | The Graph should be Empty since one of the salary is negative | passed |
 | there is no manager | test5.csv | Graph should be empty since no manager or ceo | passed |
 
-# Class Diagram
-![Class Digram](ClassDiagram.png)
-
-
-
-**Task Accomplished By Eugene Ogongo Odera**
+**Task Accomplished By Kevin Madiavale**
 
 
 
